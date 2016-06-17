@@ -6,7 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-file_name = "erlang-#{default['erlang']['version']}"
+file_name = "erlang-#{node['erlang']['version']}"
 case node['platform_family']
 when 'rhel'
   remote_file "#{Chef::Config['file_cache_path']}/#{file_name}.rpm" do
