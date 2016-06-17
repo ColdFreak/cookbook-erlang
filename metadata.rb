@@ -1,0 +1,7 @@
+name             'erlang'
+maintainer       'Wang Zhijun'
+maintainer_email 'wzj8798@gmail.com'
+license          'All rights reserved'
+description      'Installs/Configures erlang'
+long_description 'Installs/Configures erlang'
+version          '17.5'
